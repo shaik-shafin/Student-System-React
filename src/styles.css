@@ -1,0 +1,20 @@
+.card{
+    border:2px solid black;
+    margin-top:10px;
+}
+.card > div{
+    border:2px dotted red;
+    margin:10px;
+}
+.btn{
+    margin:10px;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+}
+
+.header > a {
+    padding:10px;
+}
