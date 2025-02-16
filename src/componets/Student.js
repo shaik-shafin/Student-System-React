@@ -157,7 +157,7 @@ export default function Student() {
                 <Button variant="contained" onClick={handleSubmit}>Submit</Button>
                 </Box>
             </Paper>
-            <h1>Students</h1>
+            <h1>Students List</h1>
             <Paper elevation={6} style={paperStyle}>
                 {students.map((s, index) => (
                     <Paper elevation={6} style={{margin:'10px', padding:'15px', textAlign:"left"}} key={index}>
